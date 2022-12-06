@@ -76,7 +76,7 @@ def documentSimilarity(filename_1, filename_2):
     sorted_word_list_2 = word_frequencies_for_file(filename_2) 
     distance = vector_angle(sorted_word_list_1, sorted_word_list_2) 
       
-    print("A distância entre os documentos é: % 0.2f (radianos)"% distance, file=arquivo) 
+    print("A distância entre os documentos é: % 0.6f (radianos)"% distance,) 
       
 documentSimilarity('t1.txt', 't2.txt') 
 
