@@ -46,7 +46,7 @@ def word_frequencies_for_file(filename):
     freq_mapping = count_frequency(word_list) 
   
     print("File", filename, ":", ) 
-    print(len(line_list), "linhas, ", ) 
+    print(len(line_list), "letras, ", ) 
     print(len(word_list), "palavras, ", ) 
     print(len(freq_mapping), "palavras distintas") 
   
